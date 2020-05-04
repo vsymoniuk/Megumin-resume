@@ -12,7 +12,7 @@ explosionBtn.addEventListener("click", () => {
 });
 
 function toggle() {
-  main.classList.toggle("megumin");
+  main.classList.toggle("explosion-gif");
   page.classList.toggle("page-wibro");
   Array.from(wibratingElements).forEach((element) => {
     element.classList.toggle("wibro");

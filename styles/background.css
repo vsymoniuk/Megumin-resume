@@ -5,10 +5,10 @@ main {
     background-size: cover;
 }
 
-main.megumin {
+main.explosion-gif {
     background-image: url("../img/megumin.gif");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
