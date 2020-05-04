@@ -2,21 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://volodymyrkushnir.com/assets/stylesheets/base.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/wibro.css">
     <link rel="stylesheet" href="styles/background.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/EXPOSION.js" defer></script>
     <script src="scripts/explosions.js" defer></script>
 
     <title>Résumé</title>
   </head>
-  <body>
-    <main>
+  <body >
+    <main id="main">
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div id="page" class="page" style="border-color: midnightblue;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
@@ -194,6 +195,9 @@
                       coupons, even after becoming a multi-millionaire.
                     </li>
                   </ul>
+                </section>
+                <section>
+                  <a id="explosionBtn" class=" waves-effect waves-light btn red explosion">Explosion?</a>
                 </section>
               </div>
             </div>

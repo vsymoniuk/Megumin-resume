@@ -3,6 +3,12 @@ main {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-
-    overflow: hidden;
 }
+
+main.megumin {
+    background-image: url("../img/megumin.gif");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-size: cover; */
+}
+

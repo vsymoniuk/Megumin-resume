@@ -1,4 +1,4 @@
-{
+
     const colors = [ '#ffc000', '#ff3b3b', '#ff8400' ];
     const bubbles = 25;
 
@@ -69,4 +69,3 @@
     
     explosiveElements.forEach(element => element.addEventListener('mousemove', e => explode(e.pageX, e.pageY))) 
     
-}
