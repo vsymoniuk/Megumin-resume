@@ -1,0 +1,14 @@
+main {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+main.megumin {
+    background-image: url("../img/megumin.gif");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-size: cover; */
+}
+

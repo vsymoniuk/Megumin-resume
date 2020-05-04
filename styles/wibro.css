@@ -1,0 +1,158 @@
+.wibro {
+  -webkit-animation: 0.2s tremor ease-out infinite;
+  animation: 0.2s tremor ease-out infinite;
+  transition: ease-in;
+}
+
+.page-wibro {
+  -webkit-animation: 0.7s verticalTremor ease-out infinite;
+  animation: 0.2s verticalTremor ease-out infinite;
+  transition: all 2s ease-out;
+}
+
+@-webkit-keyframes verticalTremor {
+    0%,
+    25% {
+      top: -1px;
+      
+      -webkit-transform: translateY(-4%);
+      transform: translateY(-4%);
+    }
+    50%,
+    100% {
+      top: 1px;
+      
+      -webkit-transform: translateY(4%);
+      transform: translateY(4%);
+    }
+  }
+  @-moz-keyframes verticalTremor {
+    0%,
+    25% {
+      top: -1px;
+      -webkit-transform: translateY(-4%);
+      transform: translateY(-4%);
+    }
+    50%,
+    100% {
+      top: 1px;
+      -webkit-transform: translateY(4%);
+      transform: translateY(4%);
+    }
+  }
+  @-ms-keyframes verticalTremor {
+    0%,
+    25% {
+      top: -1px;
+      -webkit-transform: translateY(-4%);
+      transform: translateY(-4%);
+    }
+    50%,
+    100% {
+      top: 1px;
+      -webkit-transform: translateY(4%);
+      transform: translateY(4%);
+    }
+  }
+  @-o-keyframes verticalTremor {
+    0%,
+    25% {
+      top: -1px;
+      -webkit-transform: translateY(-4%);
+      transform: translateY(-4%);
+    }
+    50%,
+    100% {
+      top: 1px;
+      -webkit-transform: translateY(4%);
+      transform: translateY(4%);
+    }
+  }
+  @keyframes verticalTremor {
+    0%,
+    25% {
+      top: -1px;
+      -webkit-transform: translateY(-4%);
+      transform: translateY(-4%);
+    }
+    50%,
+    100% {
+      top: 1px;
+      -webkit-transform: translateY(4%);
+      transform: translateY(4%);
+    }
+  }
+  
+
+@-webkit-keyframes tremor {
+  0%,
+  25% {
+    left: -1px;
+    
+    -webkit-transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    
+    -webkit-transform: translateX(4%);
+    transform: translateX(4%);
+  }
+}
+@-moz-keyframes tremor {
+  0%,
+  25% {
+    left: -1px;
+    -webkit-transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    -webkit-transform: translateX(4%);
+    transform: translateX(4%);
+  }
+}
+@-ms-keyframes tremor {
+  0%,
+  25% {
+    left: -1px;
+    -webkit-transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    -webkit-transform: translateX(4%);
+    transform: translateX(4%);
+  }
+}
+@-o-keyframes tremor {
+  0%,
+  25% {
+    left: -1px;
+    -webkit-transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    -webkit-transform: translateX(4%);
+    transform: translateX(4%);
+  }
+}
+@keyframes tremor {
+  0%,
+  25% {
+    left: -1px;
+    -webkit-transform: translateX(-4%);
+    transform: translateX(-4%);
+  }
+  50%,
+  100% {
+    left: 1px;
+    -webkit-transform: translateX(4%);
+    transform: translateX(4%);
+  }
+}
