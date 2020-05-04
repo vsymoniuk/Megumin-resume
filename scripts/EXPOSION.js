@@ -3,15 +3,17 @@ const wibratingElements = document.querySelectorAll(
 );
 
 explosionBtn.addEventListener("click", () => {
-    new Audio('../sound/explosion.mp3').play()
+  const video = document.createElement("video");
+  video.setAttribute("src", "../video/explosion.mp4");
+  video.play();
   toggle();
   setTimeout(() => {
     toggle();
-  }, 8100);
+  }, 7200);
 });
 
 function toggle() {
-   main.classList.toggle('megumin')
+  main.classList.toggle("megumin");
   page.classList.toggle("page-wibro");
   Array.from(wibratingElements).forEach((element) => {
     element.classList.toggle("wibro");
