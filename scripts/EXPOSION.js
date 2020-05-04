@@ -3,7 +3,7 @@ const wibratingElements = document.querySelectorAll(
 );
 
 explosionBtn.addEventListener("click", () => {
-    new Audio('../sound/explosion.mp3').play()
+    new Audio('https://raw.githubusercontent.com/vsymoniuk/homepage/develop/sound/explosion.mp3').play()
   toggle();
   setTimeout(() => {
     toggle();
