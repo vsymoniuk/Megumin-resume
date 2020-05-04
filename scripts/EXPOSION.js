@@ -3,9 +3,8 @@ const wibratingElements = document.querySelectorAll(
 );
 
 explosionBtn.addEventListener("click", () => {
-//   const video = document.createElement("video");
-//   video.setAttribute("src", "../video/explosion.mp4");
-  video.play();
+  audio.crossOrigin = "anonymous";
+  audio.play();
   toggle();
   setTimeout(() => {
     toggle();
