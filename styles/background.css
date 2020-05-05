@@ -1,14 +1,13 @@
 main {
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 main.explosion-gif {
-    background-image: url("../img/megumin.gif");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+  background-image: url("../img/megumin.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
-
